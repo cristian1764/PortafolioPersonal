@@ -1,6 +1,7 @@
 // re_PhB4BphJ_L5dvSyvMiP8NtzSXdK7o19bC
 
 import { EmailTemplate } from "@/components/email-template";
+import * as React from "react";
 import {Resend} from "resend"
 // import { EmailTemplateProps } from "@/components/email-template"
 
@@ -15,11 +16,11 @@ export async function POST(req:Request) {
                 from: "Acme <onboarding@resend.dev>",
                 to: ["cristianvaldes729@gmail.com"],
                 subject: "cristian landing",
-                react: EmailTemplate({
-                  firstName:dataForm.username,
-                  message: dataForm.message,
-                  email: dataForm.email
-                }),
+                                                react: React.createElement(EmailTemplate, {
+                                                    firstName: dataForm.username,
+                                                    message: dataForm.message,
+                                                    email: dataForm.email
+                                                }),
                 text:"crisval",
             });
             return Response.json(data)
