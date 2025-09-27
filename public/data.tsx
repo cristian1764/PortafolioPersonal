@@ -128,10 +128,10 @@ export const dataCertifiquey = [
         urlDemo:"/1.jpg"
     },
     {
-        id:1,
+        id:2,
         title:"Talen Land",
         image:"/cert1.png",
-        urlDemo:"/1.jpg"
+        urlDemo:"/cert1.png"
     }
 
 ];
