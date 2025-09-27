@@ -126,7 +126,14 @@ export const dataCertifiquey = [
         title:"ciberseguridad",
         image:"/1.jpg",
         urlDemo:"/1.jpg"
+    },
+    {
+        id:1,
+        title:"Talen Land",
+        image:"/cert1.png",
+        urlDemo:"/1.jpg"
     }
+
 ];
 
 export const dataExperience = [
