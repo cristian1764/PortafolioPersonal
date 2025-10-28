@@ -17,8 +17,9 @@ const Certifiquey =()=>{
                             {data.title}
                         </h3>
                         <AspectRatio ratio={16 / 9}>
-                        <Image src="/1.jpg" width={700}
+                        <Image src={data.image} width={700}
                                 height={700} alt="Image" className="rounded-md object-cover"/>
+                                <br />
                          </AspectRatio>
                          <div className="mt-5 flex gap-5 text-center">
                             <Link className={buttonVariants()} href={data.urlDemo} target="_blank">

@@ -47,9 +47,9 @@ const AboutMe=()=>{
                         el backend como en el frontend, trabajando con frameworks modernos como Laravel, Angular y Next.js, además de herramientas como phpMyAdmin, Swagger y 
                         Tailwind CSS.</p>
 
-                        <Button>
+                        {/* <Button>
                             <Phone size={20} className="mr-2"/> hablamos
-                        </Button>
+                        </Button> */}
                 </div>
             </div>
         </div>

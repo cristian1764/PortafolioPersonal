@@ -123,15 +123,15 @@ export const dataPortfolio = [
 export const dataCertifiquey = [
     {
         id:1,
-        title:"ciberseguridad",
+        title:"Ciberseguridad",
         image:"/1.jpg",
         urlDemo:"/1.jpg"
     },
     {
         id:2,
         title:"Talen Land",
-        image:"/cert1.png",
-        urlDemo:"/cert1.png"
+        image:"/talent.png",
+        urlDemo:"/talent.png"
     }
 
 ];
@@ -194,13 +194,13 @@ export const dataExperience = [
             },
             {
                 name: "MySQL",
-                subtitle: "Experimentado",
+                subtitle: "Intermedio",
                 value: 60,
             },
             {
                 name: "PHP",
-                subtitle: "Experimentado",
-                value: 80,
+                subtitle: "Intermedio",
+                value: 40,
             },
             // {
             //     name: "Django",
@@ -229,6 +229,12 @@ export const dataExperience = [
                 subtitle: "Intermedio",
                 value: 40,
             },
+            {
+                name: "Excel",
+                subtitle: "Intermedio",
+                value: 60,
+            },
+
             // {
             //     name: "MySQL",
             //     subtitle: "Experimentado",
