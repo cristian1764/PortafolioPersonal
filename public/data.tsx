@@ -97,6 +97,13 @@ export const dataPortfolio = [
          urlGithub: "#!",
          urlDemo: "/feria.mp4",
      },
+      {
+         id: 4,
+         title: "DevTree",
+         image: "/DevTree.jpeg",
+         urlGithub: "https://github.com/cristian1764/DevTree-Frontend.git",
+         urlDemo: "https://devtreecris.netlify.app/",
+     },
     // {
     //     id: 4,
     //     title: "Navegando Ideas Creativas",
